@@ -8,11 +8,13 @@ use modules::{
     b_primitives::{
         ba_literals_and_operators::a_literals_and_operators,
         bb_tuples::bb_tuples,
+        bc_arrays_and_slices::bc_arrays_and_slices,
     },
 };
 
 fn main() {
     // formatted_display();
     // a_literals_and_operators()
-    bb_tuples()
+    // bb_tuples()
+    bc_arrays_and_slices()
 }

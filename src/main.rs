@@ -16,6 +16,7 @@ use modules::{
         cba_use::cba_use,
         cbb_c_like::cbb_c_like,
         cbc_testcase_linked_list::cbc_testcase_linked_list,
+        cc_constants::cc_constants,
     }
 };
 
@@ -28,5 +29,6 @@ fn main() {
     // cb_enums()
     // cba_use()
     // cbb_c_like()
-    cbc_testcase_linked_list()
+    // cbc_testcase_linked_list()
+    cc_constants()
 }

@@ -12,6 +12,10 @@ use modules::{
     },
     c_custom_types::{
         ca_structures::ca_structures,
+        cb_enums::cb_enums,
+        cba_use::cba_use,
+        cbb_c_like::cbb_c_like,
+        cbc_testcase_linked_list::cbc_testcase_linked_list,
     }
 };
 
@@ -20,5 +24,9 @@ fn main() {
     // a_literals_and_operators()
     // bb_tuples()
     // bc_arrays_and_slices()
-    ca_structures()
+    // ca_structures()
+    // cb_enums()
+    // cba_use()
+    // cbb_c_like()
+    cbc_testcase_linked_list()
 }

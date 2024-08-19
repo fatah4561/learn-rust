@@ -1,3 +1,4 @@
+#![allow(dead_code, unused_imports)]
 // constant can be declared in any scope including global
 // const: unchangeable value (common case)
 // static: a possibly mutable variable with `!static` lifetime,

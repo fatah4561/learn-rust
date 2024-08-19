@@ -17,6 +17,13 @@ use modules::{
         cbb_c_like::cbb_c_like,
         cbc_testcase_linked_list::cbc_testcase_linked_list,
         cc_constants::cc_constants,
+    },
+    d_variable_bindings::{
+        da_variable_bindings::da_variable_bindings,
+        db_mutability::db_mutability,
+        dc_scope_and_shadowing::dc_scope_and_shadowing,
+        dd_declare_first::dd_declare_first,
+        de_freezing::de_freezing,
     }
 };
 
@@ -30,5 +37,10 @@ fn main() {
     // cba_use()
     // cbb_c_like()
     // cbc_testcase_linked_list()
-    cc_constants()
+    // cc_constants()
+    // da_variable_bindings()
+    // db_mutability()
+    // dc_scope_and_shadowing()
+    // dd_declare_first()
+    de_freezing()
 }

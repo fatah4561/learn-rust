@@ -24,6 +24,12 @@ use modules::{
         dc_scope_and_shadowing::dc_scope_and_shadowing,
         dd_declare_first::dd_declare_first,
         de_freezing::de_freezing,
+    },
+    e_types::{
+        ea_casting::ea_casting,
+        eb_literals::eb_literals,
+        ec_inference::ec_inference,
+        ed_aliasing::ed_aliasing,
     }
 };
 
@@ -42,5 +48,9 @@ fn main() {
     // db_mutability()
     // dc_scope_and_shadowing()
     // dd_declare_first()
-    de_freezing()
+    // de_freezing()
+    // ea_casting()
+    // eb_literals()
+    // ec_inference()
+    ed_aliasing()
 }

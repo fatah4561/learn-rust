@@ -30,6 +30,11 @@ use modules::{
         eb_literals::eb_literals,
         ec_inference::ec_inference,
         ed_aliasing::ed_aliasing,
+    },
+    f_conversions::{
+        fa_from_and_into::fa_from_and_into,
+        fb_tryfrom_and_tryinto::fb_tryfrom_and_tryinto,
+        fc_to_and_from_strings::fc_to_and_from_strings,
     }
 };
 
@@ -52,5 +57,8 @@ fn main() {
     // ea_casting()
     // eb_literals()
     // ec_inference()
-    ed_aliasing()
+    // ed_aliasing()
+    // fa_from_and_into()
+    // fb_tryfrom_and_tryinto()
+    fc_to_and_from_strings()
 }

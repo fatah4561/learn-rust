@@ -2,6 +2,7 @@
 
 mod modules;
 
+use modules::h_flow_of_control::hd_for_and_range;
 #[allow(unused_imports)]
 use modules::{
     a_hello_world::ab_formatted_print::formatted_display,
@@ -36,7 +37,18 @@ use modules::{
         fb_tryfrom_and_tryinto::fb_tryfrom_and_tryinto,
         fc_to_and_from_strings::fc_to_and_from_strings,
     },
-    g_expressions::g_expressions::g_expressions
+    g_expressions::g_expressions::g_expressions,
+    h_flow_of_control::{
+        ha_if_else::ha_if_else,
+        hb_loop::hb_loop,
+        hba_nesting_and_labels::hba_nesting_and_labels,
+        hbb_returning_from_loops::hbb_returning_from_loops,
+        hc_while::hc_while,
+        hd_for_and_range::{
+            for_and_range,
+            for_and_iterators,
+        }
+    }
 };
 
 fn main() {
@@ -62,5 +74,12 @@ fn main() {
     // fa_from_and_into()
     // fb_tryfrom_and_tryinto()
     // fc_to_and_from_strings()
-    g_expressions()
+    // g_expressions()
+    // ha_if_else()
+    // hb_loop()
+    // hba_nesting_and_labels()
+    // hbb_returning_from_loops()
+    // hc_while()
+    // for_and_range()
+    for_and_iterators()
 }

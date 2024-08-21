@@ -35,7 +35,8 @@ use modules::{
         fa_from_and_into::fa_from_and_into,
         fb_tryfrom_and_tryinto::fb_tryfrom_and_tryinto,
         fc_to_and_from_strings::fc_to_and_from_strings,
-    }
+    },
+    g_expressions::g_expressions::g_expressions
 };
 
 fn main() {
@@ -60,5 +61,6 @@ fn main() {
     // ed_aliasing()
     // fa_from_and_into()
     // fb_tryfrom_and_tryinto()
-    fc_to_and_from_strings()
+    // fc_to_and_from_strings()
+    g_expressions()
 }

@@ -2,8 +2,8 @@
 
 mod modules;
 
-use modules::h_flow_of_control::hd_for_and_range;
 #[allow(unused_imports)]
+// i need better idea for this name numbering -.-
 use modules::{
     a_hello_world::ab_formatted_print::formatted_display,
     b_primitives::{
@@ -47,7 +47,17 @@ use modules::{
         hd_for_and_range::{
             for_and_range,
             for_and_iterators,
-        }
+        },
+        he_match::he_match,
+        hea_destructuring::{
+            heaa_tuples::heaa_tuples,
+            heab_arrays_slices::heab_arrays_slices,
+            heac_enums::heac_enums,
+            head_pointers_ref::head_pointers_ref,
+            heaf_structs::heaf_structs,
+        },
+        heb_guards::heb_guards,
+        hec_binding::hec_binding,
     }
 };
 
@@ -81,5 +91,13 @@ fn main() {
     // hbb_returning_from_loops()
     // hc_while()
     // for_and_range()
-    for_and_iterators()
+    // for_and_iterators()
+    // he_match()
+    // heaa_tuples()
+    // heab_arrays_slices()
+    // heac_enums()
+    // head_pointers_ref()
+    // heaf_structs()
+    // heb_guards()
+    hec_binding()
 }

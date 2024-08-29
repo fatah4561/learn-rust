@@ -61,6 +61,10 @@ use modules::{
         hf_if_let::hf_if_let,
         hg_let_else::hg_let_else,
         hh_while_let::hh_while_let,
+    },
+    i_functions::{
+        i_functions::i_functions,
+        ia_methods::ia_methods,
     }
 };
 
@@ -105,5 +109,7 @@ fn main() {
     // hec_binding()
     // hf_if_let()
     // hg_let_else()
-    hh_while_let()
+    // hh_while_let()
+    // i_functions()
+    ia_methods()
 }

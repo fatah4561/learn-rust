@@ -58,6 +58,9 @@ use modules::{
         },
         heb_guards::heb_guards,
         hec_binding::hec_binding,
+        hf_if_let::hf_if_let,
+        hg_let_else::hg_let_else,
+        hh_while_let::hh_while_let,
     }
 };
 
@@ -99,5 +102,8 @@ fn main() {
     // head_pointers_ref()
     // heaf_structs()
     // heb_guards()
-    hec_binding()
+    // hec_binding()
+    // hf_if_let()
+    // hg_let_else()
+    hh_while_let()
 }

@@ -11,3 +11,6 @@ pub mod he_match;
 pub mod hea_destructuring;
 pub mod heb_guards;
 pub mod hec_binding;
+pub mod hf_if_let;
+pub mod hg_let_else;
+pub mod hh_while_let;

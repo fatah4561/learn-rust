@@ -65,6 +65,10 @@ use modules::{
     i_functions::{
         i_functions::i_functions,
         ia_methods::ia_methods,
+        ib_closures::{
+            ib_closures::ib_closures,
+            iba_capturing::iba_capturing,
+        },
     }
 };
 
@@ -111,5 +115,7 @@ fn main() {
     // hg_let_else()
     // hh_while_let()
     // i_functions()
-    ia_methods()
+    // ia_methods()
+    // ib_closures()
+    iba_capturing()
 }
